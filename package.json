@@ -1,0 +1,14 @@
+{
+  "name": "cansat-server",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js  "
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.3",
+    "serialport": "^6.2.1"
+  },
+  "devDependencies": {}
+}
