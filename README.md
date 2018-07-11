@@ -1,4 +1,4 @@
-# Cansat Server Prototype
+# Cansat Node Server
 
 # Installation
 
