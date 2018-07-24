@@ -4,13 +4,15 @@ const ObjectID    = require('mongodb').ObjectID;
 const GridStore   = require('mongodb').GridStore;
 const config      = require('../config/config');
 const url         = config.database.url;
+const dbName      = config.database.dbName;
 const fs          = require('fs');
+const isID        = new RegExp("^[0-9a-fA-F]{24}$");
 
 
 // Connect
 const connection = (closure) => {
-    return MongoClient.connect(url, (err, db) => {
-        closure(db, err);
+    return MongoClient.connect(url, (err, client) => {
+      closure(client, err);
     });
 };
 
@@ -27,12 +29,12 @@ module.exports = {
       limit = params.pager.pageSize;
     }
     return new Promise((resolve, reject) => {
-       connection((db, err) => {
+       connection((client, err) => {
            if (err) {
              reject(err);
              return;
            }
-           db.collection(collection)
+           client.db(dbName).collection(collection)
            .find(params.query, params.fields)
            .sort(params.sort)
            .skip(skip)
@@ -40,11 +42,11 @@ module.exports = {
            .toArray()
            .then((obj) => {
                resolve(obj);
-               db.close();
+               client.close();
            })
            .catch((err) => {
                reject(err);
-               db.close();
+               client.close();
            });
        });
     });
@@ -61,12 +63,12 @@ module.exports = {
       limit = params.pager.pageSize;
     }
     return new Promise((resolve, reject) => {
-       connection((db, err) => {
+       connection((client, err) => {
          if (err) {
            reject(err);
            return;
          }
-         db.fs.files
+         client.db(dbName).fs.files
            .find(params.query)
            .sort(params.sort)
            .skip(skip)
@@ -74,11 +76,11 @@ module.exports = {
            .toArray()
            .then((obj) => {
                resolve(obj);
-               db.close();
+               client.close();
            })
            .catch((err) => {
                reject(err);
-               db.close();
+               client.close();
            });
        });
     });
@@ -89,22 +91,22 @@ module.exports = {
   findOne: (collection, params ) => {
     params = params || {};
     return new Promise((resolve, reject) => {
-       connection((db, err) => {
+       connection((client, err) => {
          if (err) {
            reject(err);
            return;
          }
-         db.collection(collection)
+         client.db(dbName).collection(collection)
          .find(params.query, params.fields)
          .sort(params.sort)
          .toArray()
          .then((obj) => {
              resolve(obj[0]);
-             db.close();
+             client.close();
          })
          .catch((err) => {
              reject(err);
-             db.close();
+             client.close();
          });
        });
     });
@@ -112,23 +114,28 @@ module.exports = {
 
   findById: (collection, params ) => {
     params = params || {};
+
     return new Promise((resolve, reject) => {
-       connection((db, err) => {
+       connection((client, err) => {
          if (err) {
            reject(err);
            return;
          }
-         db.collection(collection)
+         if (!isID.test(params.id)) {
+           resolve();
+           return;
+         }
+         client.db(dbName).collection(collection)
          .find({_id: new ObjectID(params.id)}, params.fields)
          .sort(params.sort)
          .toArray()
          .then((obj) => {
              resolve(obj[0]);
-             db.close();
+             client.close();
          })
          .catch((err) => {
              reject(err);
-             db.close();
+             client.close();
          });
        });
     });
@@ -136,20 +143,21 @@ module.exports = {
 
   insertOne: (collection, obj) => {
     return new Promise((resolve, reject) => {
-      connection((db, err) => {
+      connection((client, err) => {
         if (err) {
           reject(err);
           return;
         }
-        db.collection(collection)
+
+        client.db(dbName).collection(collection)
         .insertOne(obj)
         .then((obj) => {
             resolve(obj);
-            db.close();
+            client.close();
         })
         .catch((err) => {
             reject(err);
-            db.close();
+            client.close();
         });
       });
     });
@@ -157,12 +165,12 @@ module.exports = {
 
   insertOneFile: (collection, obj) => {
     return new Promise((resolve, reject) => {
-      connection((db, err) => {
+      connection((client, err) => {
         if (err) {
           reject(err);
           return;
         }
-        var gs = new GridStore(db, obj.name, "w", {
+        var gs = new GridStore(client.db(dbName), obj.name, "w", {
           "content_type": obj.mimetype,
           "metadata":{
               "name": obj.name
@@ -184,14 +192,14 @@ module.exports = {
     });
   },
 
-  doanloadFile: (collection, params) => {
+  downloadFile: (collection, params) => {
     return new Promise((resolve, reject) => {
-      connection((db, err) => {
+      connection((client, err) => {
         if (err) {
           reject(err);
           return;
         }
-        var gs = new GridStore(db, params.id, "r");
+        var gs = new GridStore(client.db(dbName), params.id, "r");
         gs.open(function(err, gs) {
           gs.read( (err, obj)=>{
             resolve(obj);
@@ -204,20 +212,20 @@ module.exports = {
 
   insertMany: (collection, obj) => {
     return new Promise((resolve, reject) => {
-      connection((db, err) => {
+      connection((client, err) => {
         if (err) {
           reject(err);
           return;
         }
-        db.collection(collection)
+        client.db(dbName).collection(collection)
         .insertMany(obj)
         .then((obj) => {
             resolve(obj);
-            db.close();
+            client.close();
         })
         .catch((err) => {
             reject(err);
-            db.close();
+            client.close();
         });
       });
     });
@@ -227,20 +235,24 @@ module.exports = {
     var id = obj._id;
     delete obj._id;
     return new Promise((resolve, reject) => {
-      connection((db, err) => {
+      connection((client, err) => {
           if (err) {
             reject(err);
             return;
           }
-          db.collection(collection)
-              .updateOne({_id: new ObjectID(id)}, obj)
+          if (!isID.test(id)) {
+            resolve();
+            return;
+          }
+          client.db(dbName).collection(collection)
+              .updateOne({_id: new ObjectID(id)}, { $set: obj})
               .then((obj) => {
-                  resolve(obj);
-                  db.close();
+                  resolve(obj.result);
+                  client.close();
               })
               .catch((err) => {
                   reject(err);
-                  db.close();
+                  client.close();
               });
       });
     });
@@ -248,21 +260,25 @@ module.exports = {
 
   deleteOne: (collection, id) => {
     return new Promise((resolve, reject) => {
-      connection((db, err) => {
+      connection((client, err) => {
 
         if (err) {
           reject(err);
           return;
         }
-          db.collection(collection)
+        if (!isID.test(id)) {
+          resolve();
+          return;
+        }
+          client.db(dbName).collection(collection)
           .deleteOne({_id: new ObjectID(id)})
           .then((obj) => {
-              resolve(obj);
-              db.close();
+              resolve(obj.result);
+              client.close();
           })
           .catch((err) => {
               reject(err);
-              db.close();
+              client.close();
           });
       });
     });
@@ -271,22 +287,44 @@ module.exports = {
   count: (collection, params) => {
     params = params || {};
     return new Promise((resolve, reject) => {
-       connection((db, err) => {
+       connection((client, err) => {
            if (err) {
              reject(err);
              return;
            }
-           db.collection(collection)
+           client.db(dbName).collection(collection)
            .find(params.query)
            .count()
            .then((obj) => {
                resolve(obj);
-               db.close();
+               client.close();
            })
            .catch((err) => {
                reject(err);
-               db.close();
+               client.close();
            });
+       });
+    });
+  },
+
+  aggregate: (collection, pipeline) => {
+    return new Promise((resolve, reject) => {
+       connection((client, err) => {
+           if (err) {
+             reject(err);
+             return;
+           }
+           client.db(dbName).collection(collection)
+           .aggregate(pipeline)
+           .toArray()
+           .then((obj) => {
+               resolve(obj);
+               client.close();
+           })
+           .catch((err) => {
+               reject(err);
+               client.close();
+           });;
        });
     });
   },
