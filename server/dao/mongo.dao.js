@@ -57,7 +57,6 @@ module.exports = exports = {
       }
       sort = params.sort;
     }
-    console.log("[dao] find", JSON.stringify(params) );
 
     return new Promise((resolve, reject) => {
        db.find(collection, { query: filter, fields:{}, sort: sort, pager: params.pager }).then(function(data){
@@ -69,7 +68,6 @@ module.exports = exports = {
   },
 
   findById: function(collection, id){
-    console.log("[dao] findById ",id);
     return new Promise((resolve, reject) => {
        db.findById(collection, {id: id}).then(function(data){
          resolve(data);
@@ -80,7 +78,6 @@ module.exports = exports = {
   },
 
   findByUsername: function(collection, username){
-    console.log("[dao] findByUsername: ", username);
     return new Promise((resolve, reject) => {
        db.find(collection, { query: { username: username }, fields: {}, sort: {}} ).then(function(data){
          resolve(data);
@@ -101,7 +98,6 @@ module.exports = exports = {
   },
 
   insertOne: function(collection, obj){
-    console.log("[dao] insertOne: ", obj);
     return new Promise((resolve, reject) => {
        db.insertOne(collection, obj).then(function(data){
          obj['_id'] = data.insertedId;
@@ -113,7 +109,6 @@ module.exports = exports = {
   },
 
   insertMany: function(collection, list){
-    console.log("[dao] insertMany: ", list);
     return new Promise((resolve, reject) => {
        db.insertMany(collection, list).then(function(data){
         resolve(data);
@@ -124,7 +119,6 @@ module.exports = exports = {
   },
 
   updateOne: function(collection, obj){
-    console.log("[dao] updateOne: body: ", obj);
     return new Promise((resolve, reject) => {
        db.updateOne(collection, obj).then(function(data){
          resolve(data);
@@ -135,7 +129,6 @@ module.exports = exports = {
   },
 
   deleteOne: function(collection, id){
-    console.log("[dao] deleteOne: id: ", id);
     return new Promise((resolve, reject) => {
        db.deleteOne(collection, id).then(function(data){
          resolve(data);
@@ -146,7 +139,6 @@ module.exports = exports = {
   },
 
   doanload: function(collection, id){
-    console.log("[dao] doanload ",id);
     return new Promise((resolve, reject) => {
        db.doanloadFile(collection, {id: id}).then(function(data){
          resolve(data);
@@ -157,7 +149,6 @@ module.exports = exports = {
   },
 
   insertOneFile: function(collection, obj){
-    console.log("[dao] insertOneFile: ", obj);
     return new Promise((resolve, reject) => {
        db.insertOneFile(collection, obj).then(function(data){
         resolve(data);
