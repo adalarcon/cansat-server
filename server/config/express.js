@@ -32,11 +32,11 @@ app.use(function(req, res, next) {
 });
 
 app.get('/home', function(req, res){
-  res.sendfile(appRoot.path + '/public/app/index.html');
+  res.sendfile(appRoot.path + '/public/index.html');
 });
 
 app.get('/history', function(req, res){
-  res.sendfile(appRoot.path + '/public/app/index.html');
+  res.sendfile(appRoot.path + '/public/index.html');
 });
 
 // Body parser
