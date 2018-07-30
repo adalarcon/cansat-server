@@ -7,7 +7,4 @@ module.exports = {
       'tokenExpiresIn' : '1h',
       'enabled': true
     },
-    'database': {
-      'url': 'mongodb://localhost:27017/cansat'
-    }
 };

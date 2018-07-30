@@ -3,8 +3,8 @@ const MongoClient = mongodb.MongoClient;
 const ObjectID    = require('mongodb').ObjectID;
 const GridStore   = require('mongodb').GridStore;
 const config      = require('../config/config');
-const url         = config.database.url;
-const dbName      = config.database.dbName;
+const url         = process.env.DB_URL;
+const dbName      = process.env.DB_NAME;
 const fs          = require('fs');
 const isID        = new RegExp("^[0-9a-fA-F]{24}$");
 
@@ -24,9 +24,9 @@ module.exports = {
 
     var limit = 0;
     var skip = 0;
-    if(params.pager.pageIndex && params.pager.pageSize){
-      skip = params.pager.pageSize*(params.pager.pageIndex-1);
-      limit = params.pager.pageSize;
+    if(params.pager.index && params.pager.size){
+      skip = params.pager.size*(params.pager.index-1);
+      limit = params.pager.size;
     }
     return new Promise((resolve, reject) => {
        connection((client, err) => {
@@ -58,9 +58,9 @@ module.exports = {
 
     var limit = 0;
     var skip = 0;
-    if(params.pager.pageIndex && params.pager.pageSize){
-      skip = params.pager.pageSize*(params.pager.pageIndex-1);
-      limit = params.pager.pageSize;
+    if(params.pager.index && params.pager.size){
+      skip = params.pager.size*(params.pager.index-1);
+      limit = params.pager.size;
     }
     return new Promise((resolve, reject) => {
        connection((client, err) => {

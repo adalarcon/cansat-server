@@ -32,8 +32,8 @@ module.exports = exports = {
   find: function(collection, params){
     params = params || {};
     params.pager = params.pager || {};
-    params.pager.pageSize = parseInt(params.pager.pageSize) || 0;
-    params.pager.pageIndex = parseInt(params.pager.pageIndex) || 0;
+    params.pager.size = parseInt(params.pager.size) || 10;
+    params.pager.index = parseInt(params.pager.index) || 1;
     params.sort = params.sort || {};
     params.fields = params.fields || {};
 

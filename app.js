@@ -1,3 +1,4 @@
+const env     = require('dotenv').config()
 const app     = require('./server/config/express');
 const socket  = require('./server/helper/socket');
 
