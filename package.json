@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "start": "PORT=3800 node app.js",
+    "start": "node app.js",
     "start:dev": "PORT=3800 node app.js",
     "nodemon": "PORT=3800 nodemon app.js"
   },
