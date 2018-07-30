@@ -11,6 +11,8 @@ module.exports = exports = {
     var params = req.query || {};
     params.sort = {"timestamp":-1};
 
+    console.log(params);
+
     DAO.find(COLLECTION, params).then(function(data){
 			res.json(data);
     }).catch(function (error) {
