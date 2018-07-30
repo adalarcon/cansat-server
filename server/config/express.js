@@ -31,6 +31,14 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.get('/home', function(req, res){
+  res.sendfile(appRoot.path + '/public/app/index.html');
+});
+
+app.get('/history', function(req, res){
+  res.sendfile(appRoot.path + '/public/app/index.html');
+});
+
 // Body parser
 console.log("[app] Body parser ");
 app.use(bodyParser.json());
