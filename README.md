@@ -8,7 +8,7 @@ Paso 1: crear un archivo .env en la raiz del proyecto
 .env
 ```
 
-Paso 2: Editar el archivo y agregar las siguientes lineas
+Paso 2: editar el archivo y agregar las siguientes lineas
 
 ```
 DB_NAME=cansat
