@@ -3319,7 +3319,7 @@ var HistoryComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-accelerometer [data]=\"data\"></app-accelerometer>\n  </div>\n  <div class=\"col-md-12\">\n    <app-gyroscope [data]=\"data\"></app-gyroscope>\n\n  </div>\n  <div class=\"col-md-12\">\n    <app-magnetometer [data]=\"data\"></app-magnetometer>\n  </div>\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-accelerometer [data]=\"data\"></app-accelerometer>\n  </div>\n  <div class=\"col-md-12\">\n    <app-gyroscope [data]=\"data\"></app-gyroscope>\n\n  </div>\n</div>\n"
 
 /***/ }),
 

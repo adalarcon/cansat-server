@@ -30,6 +30,34 @@ module.exports = (server) => {
       }
     });
 
+    socket.on('lm35', function (data) {
+      console.log("[socket] lm35 >>> ", count++);
+      for (var i = 0; i < sockets.length; i++) {
+        sockets[i].emit('lm35', data);
+      }
+    });
+
+    socket.on('dth', function (data) {
+      console.log("[socket] dth >>> ", count++);
+      for (var i = 0; i < sockets.length; i++) {
+        sockets[i].emit('dth', data);
+      }
+    });
+
+    socket.on('b180', function (data) {
+      console.log("[socket] b180 >>> ", count++);
+      for (var i = 0; i < sockets.length; i++) {
+        sockets[i].emit('b180', data);
+      }
+    });
+
+    socket.on('sw', function (data) {
+      console.log("[socket] sw >>> ", count++);
+      for (var i = 0; i < sockets.length; i++) {
+        sockets[i].emit('sw', data);
+      }
+    });
+
 
     socket.on('disconnect', function () {
       console.log(' <<< socket disconected: ', socket.id);
