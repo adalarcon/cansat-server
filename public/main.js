@@ -4010,7 +4010,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 var environment = {
     production: false,
-    serverBaseURL: 'http://localhost:3800',
+    serverBaseURL: 'http://localhost:3000',
     api: '/api/v1/',
 };
 
