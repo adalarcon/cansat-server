@@ -16,6 +16,7 @@ module.exports = exports = {
     DAO.find(COLLECTION, params).then(function(data){
 			res.json(data);
     }).catch(function (error) {
+      console.log(error);
       res.status(500).json(error);
     });
   },
