@@ -58,6 +58,13 @@ module.exports = (server) => {
       }
     });
 
+    socket.on('volt', function (data) {
+      console.log("[socket] volt >>> ", count++);
+      for (var i = 0; i < sockets.length; i++) {
+        sockets[i].emit('volt', data);
+      }
+    });
+
 
     socket.on('disconnect', function () {
       console.log(' <<< socket disconected: ', socket.id);
