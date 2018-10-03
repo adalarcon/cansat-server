@@ -76,37 +76,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.routes */ "./src/app/app.routes.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
-/* harmony import */ var ng_socket_io__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ng-socket-io */ "./node_modules/ng-socket-io/dist/index.js");
-/* harmony import */ var ng_socket_io__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(ng_socket_io__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/chart.js");
-/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(primeng_chart__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! primeng/gmap */ "./node_modules/primeng/gmap.js");
-/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(primeng_gmap__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var angular_gauge_chart__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! angular-gauge-chart */ "./node_modules/angular-gauge-chart/fesm5/angular-gauge-chart.js");
-/* harmony import */ var _agm_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @agm/core */ "./node_modules/@agm/core/index.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _components_layout_main_main_layout_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/layout/main/main-layout.component */ "./src/app/components/layout/main/main-layout.component.ts");
-/* harmony import */ var _components_layout_main_menu_menu_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/layout/main/menu/menu.component */ "./src/app/components/layout/main/menu/menu.component.ts");
-/* harmony import */ var _components_layout_main_header_header_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/layout/main/header/header.component */ "./src/app/components/layout/main/header/header.component.ts");
-/* harmony import */ var _components_layout_main_avatar_avatar_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/layout/main/avatar/avatar.component */ "./src/app/components/layout/main/avatar/avatar.component.ts");
-/* harmony import */ var _components_layout_main_footer_footer_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/layout/main/footer/footer.component */ "./src/app/components/layout/main/footer/footer.component.ts");
-/* harmony import */ var _components_layout_main_content_content_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/layout/main/content/content.component */ "./src/app/components/layout/main/content/content.component.ts");
-/* harmony import */ var _components_layout_clean_clean_layout_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/layout/clean/clean-layout.component */ "./src/app/components/layout/clean/clean-layout.component.ts");
-/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
-/* harmony import */ var _components_history_history_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/history/history.component */ "./src/app/components/history/history.component.ts");
-/* harmony import */ var _components_sensors_accelerometer_accelerometer_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/sensors/accelerometer/accelerometer.component */ "./src/app/components/sensors/accelerometer/accelerometer.component.ts");
-/* harmony import */ var _components_sensors_gps_gps_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/sensors/gps/gps.component */ "./src/app/components/sensors/gps/gps.component.ts");
-/* harmony import */ var _components_sensors_gyroscope_gyroscope_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/sensors/gyroscope/gyroscope.component */ "./src/app/components/sensors/gyroscope/gyroscope.component.ts");
-/* harmony import */ var _components_sensors_magnetometer_magnetometer_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/sensors/magnetometer/magnetometer.component */ "./src/app/components/sensors/magnetometer/magnetometer.component.ts");
-/* harmony import */ var _components_sensors_sensors_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/sensors/sensors.component */ "./src/app/components/sensors/sensors.component.ts");
-/* harmony import */ var _components_sensors_altitude_altitude_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/sensors/altitude/altitude.component */ "./src/app/components/sensors/altitude/altitude.component.ts");
-/* harmony import */ var _components_sensors_presion_presion_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/sensors/presion/presion.component */ "./src/app/components/sensors/presion/presion.component.ts");
-/* harmony import */ var _components_sensors_humidity_humidity_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/sensors/humidity/humidity.component */ "./src/app/components/sensors/humidity/humidity.component.ts");
-/* harmony import */ var _components_sensors_temperature_out_temperature_out_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./components/sensors/temperature-out/temperature-out.component */ "./src/app/components/sensors/temperature-out/temperature-out.component.ts");
-/* harmony import */ var _components_sensors_temperature_in_temperature_in_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./components/sensors/temperature-in/temperature-in.component */ "./src/app/components/sensors/temperature-in/temperature-in.component.ts");
-/* harmony import */ var _components_sensors_vibration_vibration_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./components/sensors/vibration/vibration.component */ "./src/app/components/sensors/vibration/vibration.component.ts");
-/* harmony import */ var _components_sensors_voltage_voltage_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./components/sensors/voltage/voltage.component */ "./src/app/components/sensors/voltage/voltage.component.ts");
+/* harmony import */ var ngx_webcam__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-webcam */ "./node_modules/ngx-webcam/ngx-webcam.es5.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var ng_socket_io__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ng-socket-io */ "./node_modules/ng-socket-io/dist/index.js");
+/* harmony import */ var ng_socket_io__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(ng_socket_io__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/chart.js");
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(primeng_chart__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! primeng/gmap */ "./node_modules/primeng/gmap.js");
+/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(primeng_gmap__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var angular_gauge_chart__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! angular-gauge-chart */ "./node_modules/angular-gauge-chart/fesm5/angular-gauge-chart.js");
+/* harmony import */ var _agm_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @agm/core */ "./node_modules/@agm/core/index.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _components_layout_main_main_layout_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/layout/main/main-layout.component */ "./src/app/components/layout/main/main-layout.component.ts");
+/* harmony import */ var _components_layout_main_menu_menu_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/layout/main/menu/menu.component */ "./src/app/components/layout/main/menu/menu.component.ts");
+/* harmony import */ var _components_layout_main_header_header_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/layout/main/header/header.component */ "./src/app/components/layout/main/header/header.component.ts");
+/* harmony import */ var _components_layout_main_avatar_avatar_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/layout/main/avatar/avatar.component */ "./src/app/components/layout/main/avatar/avatar.component.ts");
+/* harmony import */ var _components_layout_main_footer_footer_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/layout/main/footer/footer.component */ "./src/app/components/layout/main/footer/footer.component.ts");
+/* harmony import */ var _components_layout_main_content_content_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/layout/main/content/content.component */ "./src/app/components/layout/main/content/content.component.ts");
+/* harmony import */ var _components_layout_clean_clean_layout_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/layout/clean/clean-layout.component */ "./src/app/components/layout/clean/clean-layout.component.ts");
+/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
+/* harmony import */ var _components_history_history_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/history/history.component */ "./src/app/components/history/history.component.ts");
+/* harmony import */ var _components_sensors_accelerometer_accelerometer_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/sensors/accelerometer/accelerometer.component */ "./src/app/components/sensors/accelerometer/accelerometer.component.ts");
+/* harmony import */ var _components_sensors_gps_gps_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/sensors/gps/gps.component */ "./src/app/components/sensors/gps/gps.component.ts");
+/* harmony import */ var _components_sensors_gyroscope_gyroscope_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/sensors/gyroscope/gyroscope.component */ "./src/app/components/sensors/gyroscope/gyroscope.component.ts");
+/* harmony import */ var _components_sensors_magnetometer_magnetometer_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/sensors/magnetometer/magnetometer.component */ "./src/app/components/sensors/magnetometer/magnetometer.component.ts");
+/* harmony import */ var _components_sensors_sensors_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/sensors/sensors.component */ "./src/app/components/sensors/sensors.component.ts");
+/* harmony import */ var _components_sensors_altitude_altitude_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/sensors/altitude/altitude.component */ "./src/app/components/sensors/altitude/altitude.component.ts");
+/* harmony import */ var _components_sensors_presion_presion_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/sensors/presion/presion.component */ "./src/app/components/sensors/presion/presion.component.ts");
+/* harmony import */ var _components_sensors_humidity_humidity_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./components/sensors/humidity/humidity.component */ "./src/app/components/sensors/humidity/humidity.component.ts");
+/* harmony import */ var _components_sensors_temperature_out_temperature_out_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./components/sensors/temperature-out/temperature-out.component */ "./src/app/components/sensors/temperature-out/temperature-out.component.ts");
+/* harmony import */ var _components_sensors_temperature_in_temperature_in_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./components/sensors/temperature-in/temperature-in.component */ "./src/app/components/sensors/temperature-in/temperature-in.component.ts");
+/* harmony import */ var _components_sensors_vibration_vibration_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./components/sensors/vibration/vibration.component */ "./src/app/components/sensors/vibration/vibration.component.ts");
+/* harmony import */ var _components_sensors_voltage_voltage_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./components/sensors/voltage/voltage.component */ "./src/app/components/sensors/voltage/voltage.component.ts");
+/* harmony import */ var _components_sensors_webcam_webcam_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./components/sensors/webcam/webcam.component */ "./src/app/components/sensors/webcam/webcam.component.ts");
+/* harmony import */ var _components_sensors_gyroscope_3d_gyroscope_3d_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./components/sensors/gyroscope-3d/gyroscope-3d.component */ "./src/app/components/sensors/gyroscope-3d/gyroscope-3d.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -147,51 +150,57 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"],
-                _components_layout_main_main_layout_component__WEBPACK_IMPORTED_MODULE_13__["MainLayoutComponent"],
-                _components_layout_clean_clean_layout_component__WEBPACK_IMPORTED_MODULE_19__["CleanLayoutComponent"],
-                _components_layout_main_menu_menu_component__WEBPACK_IMPORTED_MODULE_14__["MenuComponent"],
-                _components_layout_main_header_header_component__WEBPACK_IMPORTED_MODULE_15__["HeaderComponent"],
-                _components_layout_main_footer_footer_component__WEBPACK_IMPORTED_MODULE_17__["FooterComponent"],
-                _components_layout_main_avatar_avatar_component__WEBPACK_IMPORTED_MODULE_16__["AvatarComponent"],
-                _components_layout_main_content_content_component__WEBPACK_IMPORTED_MODULE_18__["ContentComponent"],
-                _components_home_home_component__WEBPACK_IMPORTED_MODULE_20__["HomeComponent"],
-                _components_sensors_accelerometer_accelerometer_component__WEBPACK_IMPORTED_MODULE_22__["AccelerometerComponent"],
-                _components_sensors_gps_gps_component__WEBPACK_IMPORTED_MODULE_23__["GpsComponent"],
-                _components_sensors_gyroscope_gyroscope_component__WEBPACK_IMPORTED_MODULE_24__["GyroscopeComponent"],
-                _components_sensors_magnetometer_magnetometer_component__WEBPACK_IMPORTED_MODULE_25__["MagnetometerComponent"],
-                _components_sensors_sensors_component__WEBPACK_IMPORTED_MODULE_26__["SensorsComponent"],
-                _components_history_history_component__WEBPACK_IMPORTED_MODULE_21__["HistoryComponent"],
-                angular_gauge_chart__WEBPACK_IMPORTED_MODULE_10__["GaugeChartComponent"],
-                _components_sensors_altitude_altitude_component__WEBPACK_IMPORTED_MODULE_27__["AltitudeComponent"],
-                _components_sensors_presion_presion_component__WEBPACK_IMPORTED_MODULE_28__["PresionComponent"],
-                _components_sensors_humidity_humidity_component__WEBPACK_IMPORTED_MODULE_29__["HumidityComponent"],
-                _components_sensors_temperature_out_temperature_out_component__WEBPACK_IMPORTED_MODULE_30__["TemperatureOutComponent"],
-                _components_sensors_temperature_in_temperature_in_component__WEBPACK_IMPORTED_MODULE_31__["TemperatureInComponent"],
-                _components_sensors_vibration_vibration_component__WEBPACK_IMPORTED_MODULE_32__["VibrationComponent"],
-                _components_sensors_voltage_voltage_component__WEBPACK_IMPORTED_MODULE_33__["VoltageComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_13__["AppComponent"],
+                _components_layout_main_main_layout_component__WEBPACK_IMPORTED_MODULE_14__["MainLayoutComponent"],
+                _components_layout_clean_clean_layout_component__WEBPACK_IMPORTED_MODULE_20__["CleanLayoutComponent"],
+                _components_layout_main_menu_menu_component__WEBPACK_IMPORTED_MODULE_15__["MenuComponent"],
+                _components_layout_main_header_header_component__WEBPACK_IMPORTED_MODULE_16__["HeaderComponent"],
+                _components_layout_main_footer_footer_component__WEBPACK_IMPORTED_MODULE_18__["FooterComponent"],
+                _components_layout_main_avatar_avatar_component__WEBPACK_IMPORTED_MODULE_17__["AvatarComponent"],
+                _components_layout_main_content_content_component__WEBPACK_IMPORTED_MODULE_19__["ContentComponent"],
+                _components_home_home_component__WEBPACK_IMPORTED_MODULE_21__["HomeComponent"],
+                _components_sensors_accelerometer_accelerometer_component__WEBPACK_IMPORTED_MODULE_23__["AccelerometerComponent"],
+                _components_sensors_gps_gps_component__WEBPACK_IMPORTED_MODULE_24__["GpsComponent"],
+                _components_sensors_gyroscope_gyroscope_component__WEBPACK_IMPORTED_MODULE_25__["GyroscopeComponent"],
+                _components_sensors_magnetometer_magnetometer_component__WEBPACK_IMPORTED_MODULE_26__["MagnetometerComponent"],
+                _components_sensors_sensors_component__WEBPACK_IMPORTED_MODULE_27__["SensorsComponent"],
+                _components_history_history_component__WEBPACK_IMPORTED_MODULE_22__["HistoryComponent"],
+                angular_gauge_chart__WEBPACK_IMPORTED_MODULE_11__["GaugeChartComponent"],
+                _components_sensors_altitude_altitude_component__WEBPACK_IMPORTED_MODULE_28__["AltitudeComponent"],
+                _components_sensors_presion_presion_component__WEBPACK_IMPORTED_MODULE_29__["PresionComponent"],
+                _components_sensors_humidity_humidity_component__WEBPACK_IMPORTED_MODULE_30__["HumidityComponent"],
+                _components_sensors_temperature_out_temperature_out_component__WEBPACK_IMPORTED_MODULE_31__["TemperatureOutComponent"],
+                _components_sensors_temperature_in_temperature_in_component__WEBPACK_IMPORTED_MODULE_32__["TemperatureInComponent"],
+                _components_sensors_vibration_vibration_component__WEBPACK_IMPORTED_MODULE_33__["VibrationComponent"],
+                _components_sensors_voltage_voltage_component__WEBPACK_IMPORTED_MODULE_34__["VoltageComponent"],
+                _components_sensors_webcam_webcam_component__WEBPACK_IMPORTED_MODULE_35__["WebcamComponent"],
+                _components_sensors_gyroscope_3d_gyroscope_3d_component__WEBPACK_IMPORTED_MODULE_36__["Gyroscope3DComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                primeng_chart__WEBPACK_IMPORTED_MODULE_8__["ChartModule"],
+                primeng_chart__WEBPACK_IMPORTED_MODULE_9__["ChartModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
-                primeng_gmap__WEBPACK_IMPORTED_MODULE_9__["GMapModule"],
+                primeng_gmap__WEBPACK_IMPORTED_MODULE_10__["GMapModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+                ngx_webcam__WEBPACK_IMPORTED_MODULE_6__["WebcamModule"],
                 _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"].forRoot(),
-                _agm_core__WEBPACK_IMPORTED_MODULE_11__["AgmCoreModule"].forRoot({
+                _agm_core__WEBPACK_IMPORTED_MODULE_12__["AgmCoreModule"].forRoot({
                     apiKey: 'AIzaSyCDg3Orzu4YR0zDyeHxtvk5Yic8IvnIbKE'
                 }),
-                ng_socket_io__WEBPACK_IMPORTED_MODULE_7__["SocketIoModule"].forRoot({ url: _environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].serverBaseURL + _environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].api + 'io/logs?s=ui', options: {} }),
+                ng_socket_io__WEBPACK_IMPORTED_MODULE_8__["SocketIoModule"].forRoot({ url: _environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].serverBaseURL + _environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].api + 'io/logs?s=ui', options: {} }),
                 _app_routes__WEBPACK_IMPORTED_MODULE_3__["ROUTING"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_13__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -1035,36 +1044,35 @@ var GpsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/components/sensors/gyroscope/gyroscope.component.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/components/sensors/gyroscope/gyroscope.component.html ***!
-  \***********************************************************************/
+/***/ "./src/app/components/sensors/gyroscope-3d/gyroscope-3d.component.html":
+/*!*****************************************************************************!*\
+  !*** ./src/app/components/sensors/gyroscope-3d/gyroscope-3d.component.html ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">Gyroscope</h3>\n    <div class=\"card-options\">\n      <button type=\"button\" class=\"btn btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-body\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n            <p-chart #chart1 type=\"line\" [data]=\"dataX\" ></p-chart>\n      </div>\n      <div class=\"col-md-4\">\n            <p-chart #chart2 type=\"line\" [data]=\"dataY\" ></p-chart>\n      </div>\n      <div class=\"col-md-4\">\n            <p-chart #chart3 type=\"line\" [data]=\"dataZ\" ></p-chart>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">Gyroscope 3D View</h3>\n    <div class=\"card-options\">\n      <button type=\"button\" class=\"btn btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-body\">\n    <p>x: {{dataRollx}}, y: {{dataRolly}}, z: {{dataRollz}}</p>\n    <canvas #canvas style=\"width:400px; height: 200px\" ></canvas>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">Gyroscope 3D View</h3>\n    <div class=\"card-options\">\n      <button type=\"button\" class=\"btn btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-body\">\n    <p>x: {{dataRollx}}, y: {{dataRolly}}, z: {{dataRollz}}</p>\n    <canvas #canvas style=\"width:400px; height: 200px\" ></canvas>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ "./src/app/components/sensors/gyroscope/gyroscope.component.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/components/sensors/gyroscope/gyroscope.component.ts ***!
-  \*********************************************************************/
-/*! exports provided: GyroscopeComponent */
+/***/ "./src/app/components/sensors/gyroscope-3d/gyroscope-3d.component.ts":
+/*!***************************************************************************!*\
+  !*** ./src/app/components/sensors/gyroscope-3d/gyroscope-3d.component.ts ***!
+  \***************************************************************************/
+/*! exports provided: Gyroscope3DComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GyroscopeComponent", function() { return GyroscopeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Gyroscope3DComponent", function() { return Gyroscope3DComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/data.service */ "./src/app/services/data.service.ts");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
-/* harmony import */ var _js_EnableThreeExamples__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/EnableThreeExamples */ "./src/app/components/sensors/gyroscope/js/EnableThreeExamples.js");
-/* harmony import */ var _js_EnableThreeExamples__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_js_EnableThreeExamples__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var three_examples_js_controls_OrbitControls__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! three/examples/js/controls/OrbitControls */ "./node_modules/three/examples/js/controls/OrbitControls.js");
-/* harmony import */ var three_examples_js_controls_OrbitControls__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(three_examples_js_controls_OrbitControls__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var three_examples_js_loaders_ColladaLoader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! three/examples/js/loaders/ColladaLoader */ "./node_modules/three/examples/js/loaders/ColladaLoader.js");
-/* harmony import */ var three_examples_js_loaders_ColladaLoader__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(three_examples_js_loaders_ColladaLoader__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var _js_EnableThreeExamples__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/EnableThreeExamples */ "./src/app/components/sensors/gyroscope-3d/js/EnableThreeExamples.js");
+/* harmony import */ var _js_EnableThreeExamples__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_js_EnableThreeExamples__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var three_examples_js_controls_OrbitControls__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! three/examples/js/controls/OrbitControls */ "./node_modules/three/examples/js/controls/OrbitControls.js");
+/* harmony import */ var three_examples_js_controls_OrbitControls__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(three_examples_js_controls_OrbitControls__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var three_examples_js_loaders_ColladaLoader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! three/examples/js/loaders/ColladaLoader */ "./node_modules/three/examples/js/loaders/ColladaLoader.js");
+/* harmony import */ var three_examples_js_loaders_ColladaLoader__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(three_examples_js_loaders_ColladaLoader__WEBPACK_IMPORTED_MODULE_4__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1079,10 +1087,8 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
-var GyroscopeComponent = /** @class */ (function () {
-    function GyroscopeComponent(dataService) {
-        this.dataService = dataService;
+var Gyroscope3DComponent = /** @class */ (function () {
+    function Gyroscope3DComponent() {
         this.dataRollx = '0';
         this.dataRolly = '0';
         this.dataRollz = '0';
@@ -1092,6 +1098,194 @@ var GyroscopeComponent = /** @class */ (function () {
         this.nearClippingPane = 1;
         this.farClippingPane = 1100;
         this.index = 0;
+        this.cont = 0;
+        this.render = this.render.bind(this);
+        this.onModelLoadingCompleted = this.onModelLoadingCompleted.bind(this);
+    }
+    Object.defineProperty(Gyroscope3DComponent.prototype, "canvas", {
+        get: function () {
+            return this.canvasRef.nativeElement;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Gyroscope3DComponent.prototype.createScene = function () {
+        this.scene = new three__WEBPACK_IMPORTED_MODULE_1__["Scene"]();
+        var loader = new three__WEBPACK_IMPORTED_MODULE_1__["ColladaLoader"]();
+        var geometry = new three__WEBPACK_IMPORTED_MODULE_1__["BoxGeometry"](200, 200, 200);
+        for (var i = 0; i < geometry.faces.length; i += 2) {
+            var hex = Math.random() * 0xffffff;
+            geometry.faces[i].color.setHex(hex);
+            geometry.faces[i + 1].color.setHex(hex);
+        }
+        var material = new three__WEBPACK_IMPORTED_MODULE_1__["MeshBasicMaterial"]({ vertexColors: three__WEBPACK_IMPORTED_MODULE_1__["FaceColors"], overdraw: 0.5 });
+        this.mesh = new three__WEBPACK_IMPORTED_MODULE_1__["Mesh"](geometry, material);
+        this.mesh.position.y = 20;
+        this.scene.add(this.mesh);
+    };
+    Gyroscope3DComponent.prototype.onModelLoadingCompleted = function (collada) {
+        var modelScene = collada.scene;
+        this.scene.add(modelScene);
+        this.render();
+    };
+    Gyroscope3DComponent.prototype.createLight = function () {
+        var light = new three__WEBPACK_IMPORTED_MODULE_1__["PointLight"](0xffffff, 1, 1000);
+        light.position.set(0, 0, 100);
+        this.scene.add(light);
+        var light = new three__WEBPACK_IMPORTED_MODULE_1__["PointLight"](0xffffff, 1, 1000);
+        light.position.set(0, 0, -100);
+        this.scene.add(light);
+    };
+    Gyroscope3DComponent.prototype.createCamera = function () {
+        var aspectRatio = this.getAspectRatio();
+        // Set position and look at
+        this.camera = new three__WEBPACK_IMPORTED_MODULE_1__["PerspectiveCamera"](70, window.innerWidth / window.innerHeight, 1, 1000);
+        this.camera.position.y = 10;
+        this.camera.position.z = 300;
+    };
+    Gyroscope3DComponent.prototype.getAspectRatio = function () {
+        var height = this.canvas.clientHeight;
+        if (height === 0) {
+            return 0;
+        }
+        return this.canvas.clientWidth / this.canvas.clientHeight;
+    };
+    Gyroscope3DComponent.prototype.startRendering = function () {
+        this.renderer = new three__WEBPACK_IMPORTED_MODULE_1__["WebGLRenderer"]({
+            canvas: this.canvas,
+            antialias: true
+        });
+        this.renderer.setPixelRatio(devicePixelRatio);
+        this.renderer.setSize(this.canvas.clientWidth, this.canvas.clientHeight);
+        this.renderer.shadowMap.enabled = true;
+        this.renderer.shadowMap.type = three__WEBPACK_IMPORTED_MODULE_1__["PCFSoftShadowMap"];
+        this.renderer.setClearColor(0xffffff, 1);
+        this.renderer.autoClear = true;
+        var component = this;
+        (function render() {
+            //requestAnimationFrame(render);
+            component.render();
+        }());
+    };
+    Gyroscope3DComponent.prototype.render = function () {
+        this.mesh.rotation.x = -this.dataRollx;
+        this.mesh.rotation.y = -this.dataRollz;
+        this.mesh.rotation.z = -this.dataRolly;
+        this.renderer.render(this.scene, this.camera);
+    };
+    Gyroscope3DComponent.prototype.addControls = function () {
+        // this.controls = new THREE.OrbitControls(this.camera);
+        // this.controls.rotateSpeed = 1.0;
+        // this.controls.zoomSpeed = 1.2;
+        // this.controls.addEventListener('change', this.render);
+    };
+    Gyroscope3DComponent.prototype.findAllObjects = function (pred, parent) {
+        var _this = this;
+        if (parent.children.length > 0) {
+            parent.children.forEach(function (i) {
+                pred.push(i);
+                _this.findAllObjects(pred, i);
+            });
+        }
+    };
+    Gyroscope3DComponent.prototype.onMouseUp = function (event) {
+        console.log("onMouseUp");
+    };
+    Gyroscope3DComponent.prototype.ngAfterViewInit = function () {
+        this.createScene();
+        this.createLight();
+        this.createCamera();
+        this.startRendering();
+        this.addControls();
+    };
+    Gyroscope3DComponent.prototype.ngOnInit = function () {
+    };
+    Gyroscope3DComponent.prototype.ngOnChanges = function () {
+        this.onRun(this.data);
+    };
+    Gyroscope3DComponent.prototype.onRun = function (data) {
+        console.log("onRun", this.cont);
+        console.log("onRun", data);
+        if (data) {
+            this.dataRollx = (data.data.gyroscope.x *= this.orderOfMag).toFixed(this.accuracy);
+            this.dataRolly = (data.data.gyroscope.y *= this.orderOfMag).toFixed(this.accuracy);
+            this.dataRollz = (data.data.gyroscope.z *= this.orderOfMag).toFixed(this.accuracy);
+            this.render();
+        }
+    };
+    Gyroscope3DComponent.prototype.onReset = function () {
+        this.dataRollx = (1 * this.orderOfMag).toFixed(this.accuracy);
+        this.dataRolly = (1 * this.orderOfMag).toFixed(this.accuracy);
+        this.dataRollz = (1 * this.orderOfMag).toFixed(this.accuracy);
+        this.render();
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Object)
+    ], Gyroscope3DComponent.prototype, "data", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('canvas'),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])
+    ], Gyroscope3DComponent.prototype, "canvasRef", void 0);
+    Gyroscope3DComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-gyroscope-dd',
+            template: __webpack_require__(/*! ./gyroscope-3d.component.html */ "./src/app/components/sensors/gyroscope-3d/gyroscope-3d.component.html"),
+        }),
+        __metadata("design:paramtypes", [])
+    ], Gyroscope3DComponent);
+    return Gyroscope3DComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/sensors/gyroscope-3d/js/EnableThreeExamples.js":
+/*!***************************************************************************!*\
+  !*** ./src/app/components/sensors/gyroscope-3d/js/EnableThreeExamples.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+THREE=__webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+
+/***/ }),
+
+/***/ "./src/app/components/sensors/gyroscope/gyroscope.component.html":
+/*!***********************************************************************!*\
+  !*** ./src/app/components/sensors/gyroscope/gyroscope.component.html ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">Gyroscope</h3>\n    <div class=\"card-options\">\n      <button type=\"button\" class=\"btn btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-body\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n            <p-chart #chart1 type=\"line\" [data]=\"dataX\" ></p-chart>\n      </div>\n      <div class=\"col-md-4\">\n            <p-chart #chart2 type=\"line\" [data]=\"dataY\" ></p-chart>\n      </div>\n      <div class=\"col-md-4\">\n            <p-chart #chart3 type=\"line\" [data]=\"dataZ\" ></p-chart>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/sensors/gyroscope/gyroscope.component.ts":
+/*!*********************************************************************!*\
+  !*** ./src/app/components/sensors/gyroscope/gyroscope.component.ts ***!
+  \*********************************************************************/
+/*! exports provided: GyroscopeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GyroscopeComponent", function() { return GyroscopeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var GyroscopeComponent = /** @class */ (function () {
+    function GyroscopeComponent() {
         this.cont = 0;
         this.dataX = {
             labels: [],
@@ -1126,104 +1320,8 @@ var GyroscopeComponent = /** @class */ (function () {
                 }
             ]
         };
-        this.render = this.render.bind(this);
-        this.onModelLoadingCompleted = this.onModelLoadingCompleted.bind(this);
     }
-    Object.defineProperty(GyroscopeComponent.prototype, "canvas", {
-        get: function () {
-            return this.canvasRef.nativeElement;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    GyroscopeComponent.prototype.createScene = function () {
-        this.scene = new three__WEBPACK_IMPORTED_MODULE_2__["Scene"]();
-        var loader = new three__WEBPACK_IMPORTED_MODULE_2__["ColladaLoader"]();
-        var geometry = new three__WEBPACK_IMPORTED_MODULE_2__["BoxGeometry"](200, 200, 200);
-        for (var i = 0; i < geometry.faces.length; i += 2) {
-            var hex = Math.random() * 0xffffff;
-            geometry.faces[i].color.setHex(hex);
-            geometry.faces[i + 1].color.setHex(hex);
-        }
-        var material = new three__WEBPACK_IMPORTED_MODULE_2__["MeshBasicMaterial"]({ vertexColors: three__WEBPACK_IMPORTED_MODULE_2__["FaceColors"], overdraw: 0.5 });
-        this.mesh = new three__WEBPACK_IMPORTED_MODULE_2__["Mesh"](geometry, material);
-        this.mesh.position.y = 20;
-        this.scene.add(this.mesh);
-    };
-    GyroscopeComponent.prototype.onModelLoadingCompleted = function (collada) {
-        var modelScene = collada.scene;
-        this.scene.add(modelScene);
-        this.render();
-    };
-    GyroscopeComponent.prototype.createLight = function () {
-        var light = new three__WEBPACK_IMPORTED_MODULE_2__["PointLight"](0xffffff, 1, 1000);
-        light.position.set(0, 0, 100);
-        this.scene.add(light);
-        var light = new three__WEBPACK_IMPORTED_MODULE_2__["PointLight"](0xffffff, 1, 1000);
-        light.position.set(0, 0, -100);
-        this.scene.add(light);
-    };
-    GyroscopeComponent.prototype.createCamera = function () {
-        var aspectRatio = this.getAspectRatio();
-        // Set position and look at
-        this.camera = new three__WEBPACK_IMPORTED_MODULE_2__["PerspectiveCamera"](70, window.innerWidth / window.innerHeight, 1, 1000);
-        this.camera.position.y = 10;
-        this.camera.position.z = 300;
-    };
-    GyroscopeComponent.prototype.getAspectRatio = function () {
-        var height = this.canvas.clientHeight;
-        if (height === 0) {
-            return 0;
-        }
-        return this.canvas.clientWidth / this.canvas.clientHeight;
-    };
-    GyroscopeComponent.prototype.startRendering = function () {
-        this.renderer = new three__WEBPACK_IMPORTED_MODULE_2__["WebGLRenderer"]({
-            canvas: this.canvas,
-            antialias: true
-        });
-        this.renderer.setPixelRatio(devicePixelRatio);
-        this.renderer.setSize(this.canvas.clientWidth, this.canvas.clientHeight);
-        this.renderer.shadowMap.enabled = true;
-        this.renderer.shadowMap.type = three__WEBPACK_IMPORTED_MODULE_2__["PCFSoftShadowMap"];
-        this.renderer.setClearColor(0xffffff, 1);
-        this.renderer.autoClear = true;
-        var component = this;
-        (function render() {
-            //requestAnimationFrame(render);
-            component.render();
-        }());
-    };
-    GyroscopeComponent.prototype.render = function () {
-        this.mesh.rotation.x = -this.dataRollx;
-        this.mesh.rotation.y = -this.dataRollz;
-        this.mesh.rotation.z = -this.dataRolly;
-        this.renderer.render(this.scene, this.camera);
-    };
-    GyroscopeComponent.prototype.addControls = function () {
-        // this.controls = new THREE.OrbitControls(this.camera);
-        // this.controls.rotateSpeed = 1.0;
-        // this.controls.zoomSpeed = 1.2;
-        // this.controls.addEventListener('change', this.render);
-    };
-    GyroscopeComponent.prototype.findAllObjects = function (pred, parent) {
-        var _this = this;
-        if (parent.children.length > 0) {
-            parent.children.forEach(function (i) {
-                pred.push(i);
-                _this.findAllObjects(pred, i);
-            });
-        }
-    };
-    GyroscopeComponent.prototype.onMouseUp = function (event) {
-        console.log("onMouseUp");
-    };
     GyroscopeComponent.prototype.ngAfterViewInit = function () {
-        this.createScene();
-        this.createLight();
-        this.createCamera();
-        this.startRendering();
-        this.addControls();
     };
     GyroscopeComponent.prototype.ngOnInit = function () {
     };
@@ -1232,12 +1330,7 @@ var GyroscopeComponent = /** @class */ (function () {
     };
     GyroscopeComponent.prototype.onRun = function (data) {
         console.log("onRun", this.cont);
-        console.log("onRun", data);
         if (data) {
-            this.dataRollx = (data.data.gyroscope.x *= this.orderOfMag).toFixed(this.accuracy);
-            this.dataRolly = (data.data.gyroscope.y *= this.orderOfMag).toFixed(this.accuracy);
-            this.dataRollz = (data.data.gyroscope.z *= this.orderOfMag).toFixed(this.accuracy);
-            console.log(this.dataRollx, this.dataRolly, this.dataRollz);
             this.dataX.labels.push(this.cont);
             this.dataY.labels.push(this.cont);
             this.dataZ.labels.push(this.cont);
@@ -1248,7 +1341,6 @@ var GyroscopeComponent = /** @class */ (function () {
             this.chart1.refresh();
             this.chart2.refresh();
             this.chart3.refresh();
-            this.render();
         }
     };
     GyroscopeComponent.prototype.onReset = function () {
@@ -1287,23 +1379,12 @@ var GyroscopeComponent = /** @class */ (function () {
             selector: 'app-gyroscope',
             template: __webpack_require__(/*! ./gyroscope.component.html */ "./src/app/components/sensors/gyroscope/gyroscope.component.html"),
         }),
-        __metadata("design:paramtypes", [_services_data_service__WEBPACK_IMPORTED_MODULE_1__["DataService"]])
+        __metadata("design:paramtypes", [])
     ], GyroscopeComponent);
     return GyroscopeComponent;
 }());
 
 
-
-/***/ }),
-
-/***/ "./src/app/components/sensors/gyroscope/js/EnableThreeExamples.js":
-/*!************************************************************************!*\
-  !*** ./src/app/components/sensors/gyroscope/js/EnableThreeExamples.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-THREE=__webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
 
 /***/ }),
 
@@ -1605,7 +1686,7 @@ var PresionComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-gps></app-gps>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-3\">\n    <app-humidity [humidity]=\"humidity\"></app-humidity>\n  </div>\n  <div class=\"col-md-3\">\n    <app-presion [presion]=\"presion\"></app-presion>\n  </div>\n\n  <div class=\"col-md-3\">\n    <app-temperature-out [temperature]=\"temperatureOut\"></app-temperature-out>\n  </div>\n  <div class=\"col-md-3\">\n    <app-temperature-in [temperature]=\"temperatureIn\"></app-temperature-in>\n  </div>\n  <div class=\"col-md-3\">\n    <app-voltage [voltage]=\"voltage\"></app-voltage>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <app-altitude [altitude]=\"altitude\"></app-altitude>\n  </div>\n  <div class=\"col-md-6\">\n    <app-vibration [vibration]=\"vibration\"></app-vibration>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-accelerometer [data]=\"data\"></app-accelerometer>\n  </div>\n  <div class=\"col-md-12\">\n    <app-gyroscope [data]=\"data\"></app-gyroscope>\n  </div>\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-gps></app-gps>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-3\">\n    <app-humidity [humidity]=\"humidity\"></app-humidity>\n  </div>\n  <div class=\"col-md-3\">\n    <app-presion [presion]=\"presion\"></app-presion>\n  </div>\n\n  <div class=\"col-md-3\">\n    <app-temperature-out [temperature]=\"temperatureOut\"></app-temperature-out>\n  </div>\n  <div class=\"col-md-3\">\n    <app-temperature-in [temperature]=\"temperatureIn\"></app-temperature-in>\n  </div>\n  <div class=\"col-md-3\">\n    <app-voltage [voltage]=\"voltage\"></app-voltage>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <app-altitude [altitude]=\"altitude\"></app-altitude>\n  </div>\n  <div class=\"col-md-6\">\n    <app-vibration [vibration]=\"vibration\"></app-vibration>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-accelerometer [data]=\"data\"></app-accelerometer>\n  </div>\n  <div class=\"col-md-12\">\n    <app-gyroscope [data]=\"data\"></app-gyroscope>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <app-gyroscope-dd [data]=\"data\"></app-gyroscope-dd>\n  </div>\n  <div class=\"col-md-6\">\n    <app-webcam></app-webcam>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
@@ -2003,6 +2084,119 @@ var VoltageComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], VoltageComponent);
     return VoltageComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/sensors/webcam/webcam.component.html":
+/*!*****************************************************************!*\
+  !*** ./src/app/components/sensors/webcam/webcam.component.html ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">WebCam View</h3>\n    <div class=\"card-options\">\n\n      <button class=\"btn btn-default\" (click)=\"triggerSnapshot(dialog);\">\n        <i class=\"fa fa-camera\"></i>\n      </button>\n      <button class=\"btn btn-default\" (click)=\"toggleWebcam();\">\n        <i class=\"fa fa-eye\"></i>\n\n      </button>\n      <button class=\"btn btn-default\" (click)=\"showNextWebcam(true);\" [disabled]=\"!multipleWebcamsAvailable\">Next</button>\n\n      <button type=\"button\" class=\"btn btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-fit\">\n    <webcam [height]=\"300\" [width]=\"400\" [trigger]=\"triggerObservable\" (imageCapture)=\"handleImage($event)\" *ngIf=\"showWebcam\"\n            [allowCameraSwitch]=\"allowCameraSwitch\" [switchCamera]=\"nextWebcamObservable\"\n            [videoOptions]=\"videoOptions\"\n            (cameraSwitched)=\"cameraWasSwitched($event)\"\n            (initError)=\"handleInitError($event)\"\n    ></webcam>\n\n    <ul *ngFor=\"let error of errors\">\n      <li>{{error | json}}</li>\n    </ul>\n  </div>\n</div>\n\n<ng-template #dialog let-modal>\n  <div class=\"modal-header\">\n    <h4 class=\"modal-title\" id=\"modal-basic-title\">Profile update</h4>\n    <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"onClose('Cross click')\">\n      <span aria-hidden=\"true\">&times;</span>\n    </button>\n  </div>\n  <div class=\"modal-body\">\n    <div class=\"snapshot\" *ngIf=\"webcamImage\">\n      <img [src]=\"webcamImage.imageAsDataUrl\"/>\n    </div>\n  </div>\n  <div class=\"modal-footer\">\n    <button type=\"button\" class=\"btn btn-outline-dark\" (click)=\"onClose('Save click')\">Save</button>\n  </div>\n</ng-template>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/sensors/webcam/webcam.component.ts":
+/*!***************************************************************!*\
+  !*** ./src/app/components/sensors/webcam/webcam.component.ts ***!
+  \***************************************************************/
+/*! exports provided: WebcamComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebcamComponent", function() { return WebcamComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var ngx_webcam__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-webcam */ "./node_modules/ngx-webcam/ngx-webcam.es5.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var WebcamComponent = /** @class */ (function () {
+    function WebcamComponent(modalService) {
+        this.modalService = modalService;
+        // toggle webcam on/off
+        this.showWebcam = true;
+        this.allowCameraSwitch = true;
+        this.multipleWebcamsAvailable = false;
+        this.videoOptions = {};
+        this.errors = [];
+        // latest snapshot
+        this.webcamImage = null;
+        // webcam snapshot trigger
+        this.trigger = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
+        // switch to next / previous / specific webcam; true/false: forward/backwards, string: deviceId
+        this.nextWebcam = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
+    }
+    WebcamComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        ngx_webcam__WEBPACK_IMPORTED_MODULE_2__["WebcamUtil"].getAvailableVideoInputs()
+            .then(function (mediaDevices) {
+            _this.multipleWebcamsAvailable = mediaDevices && mediaDevices.length > 1;
+        });
+    };
+    WebcamComponent.prototype.triggerSnapshot = function (content) {
+        this.trigger.next();
+        this.modal = this.modalService.open(content);
+    };
+    WebcamComponent.prototype.toggleWebcam = function () {
+        this.showWebcam = !this.showWebcam;
+    };
+    WebcamComponent.prototype.handleInitError = function (error) {
+        this.errors.push(error);
+    };
+    WebcamComponent.prototype.showNextWebcam = function (directionOrDeviceId) {
+        // true => move forward through devices
+        // false => move backwards through devices
+        // string => move to device with given deviceId
+        this.nextWebcam.next(directionOrDeviceId);
+    };
+    WebcamComponent.prototype.handleImage = function (webcamImage) {
+        console.info('received webcam image', webcamImage);
+        this.webcamImage = webcamImage;
+    };
+    WebcamComponent.prototype.cameraWasSwitched = function (deviceId) {
+        console.log('active device: ' + deviceId);
+        this.deviceId = deviceId;
+    };
+    Object.defineProperty(WebcamComponent.prototype, "triggerObservable", {
+        get: function () {
+            return this.trigger.asObservable();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(WebcamComponent.prototype, "nextWebcamObservable", {
+        get: function () {
+            return this.nextWebcam.asObservable();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    WebcamComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-webcam',
+            template: __webpack_require__(/*! ./webcam.component.html */ "./src/app/components/sensors/webcam/webcam.component.html"),
+        }),
+        __metadata("design:paramtypes", [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModal"]])
+    ], WebcamComponent);
+    return WebcamComponent;
 }());
 
 
