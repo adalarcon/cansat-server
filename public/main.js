@@ -72,46 +72,48 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.routes */ "./src/app/app.routes.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
-/* harmony import */ var ng_socket_io__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ng-socket-io */ "./node_modules/ng-socket-io/dist/index.js");
-/* harmony import */ var ng_socket_io__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ng_socket_io__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/chart.js");
-/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(primeng_chart__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! primeng/gmap */ "./node_modules/primeng/gmap.js");
-/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(primeng_gmap__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var angular_gauge_chart__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! angular-gauge-chart */ "./node_modules/angular-gauge-chart/fesm5/angular-gauge-chart.js");
-/* harmony import */ var _agm_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @agm/core */ "./node_modules/@agm/core/index.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _components_layout_main_main_layout_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/layout/main/main-layout.component */ "./src/app/components/layout/main/main-layout.component.ts");
-/* harmony import */ var _components_layout_main_menu_menu_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/layout/main/menu/menu.component */ "./src/app/components/layout/main/menu/menu.component.ts");
-/* harmony import */ var _components_layout_main_header_header_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/layout/main/header/header.component */ "./src/app/components/layout/main/header/header.component.ts");
-/* harmony import */ var _components_layout_main_avatar_avatar_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/layout/main/avatar/avatar.component */ "./src/app/components/layout/main/avatar/avatar.component.ts");
-/* harmony import */ var _components_layout_main_footer_footer_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/layout/main/footer/footer.component */ "./src/app/components/layout/main/footer/footer.component.ts");
-/* harmony import */ var _components_layout_main_content_content_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/layout/main/content/content.component */ "./src/app/components/layout/main/content/content.component.ts");
-/* harmony import */ var _components_layout_clean_clean_layout_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/layout/clean/clean-layout.component */ "./src/app/components/layout/clean/clean-layout.component.ts");
-/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
-/* harmony import */ var _components_history_history_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/history/history.component */ "./src/app/components/history/history.component.ts");
-/* harmony import */ var _components_sensors_accelerometer_accelerometer_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/sensors/accelerometer/accelerometer.component */ "./src/app/components/sensors/accelerometer/accelerometer.component.ts");
-/* harmony import */ var _components_sensors_gps_gps_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/sensors/gps/gps.component */ "./src/app/components/sensors/gps/gps.component.ts");
-/* harmony import */ var _components_sensors_gyroscope_gyroscope_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/sensors/gyroscope/gyroscope.component */ "./src/app/components/sensors/gyroscope/gyroscope.component.ts");
-/* harmony import */ var _components_sensors_magnetometer_magnetometer_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/sensors/magnetometer/magnetometer.component */ "./src/app/components/sensors/magnetometer/magnetometer.component.ts");
-/* harmony import */ var _components_sensors_sensors_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/sensors/sensors.component */ "./src/app/components/sensors/sensors.component.ts");
-/* harmony import */ var _components_display_display_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/display/display.component */ "./src/app/components/display/display.component.ts");
-/* harmony import */ var _components_sensors_altitude_altitude_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/sensors/altitude/altitude.component */ "./src/app/components/sensors/altitude/altitude.component.ts");
-/* harmony import */ var _components_sensors_presion_presion_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/sensors/presion/presion.component */ "./src/app/components/sensors/presion/presion.component.ts");
-/* harmony import */ var _components_sensors_humidity_humidity_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/sensors/humidity/humidity.component */ "./src/app/components/sensors/humidity/humidity.component.ts");
-/* harmony import */ var _components_sensors_temperature_out_temperature_out_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/sensors/temperature-out/temperature-out.component */ "./src/app/components/sensors/temperature-out/temperature-out.component.ts");
-/* harmony import */ var _components_sensors_temperature_in_temperature_in_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./components/sensors/temperature-in/temperature-in.component */ "./src/app/components/sensors/temperature-in/temperature-in.component.ts");
-/* harmony import */ var _components_sensors_vibration_vibration_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./components/sensors/vibration/vibration.component */ "./src/app/components/sensors/vibration/vibration.component.ts");
-/* harmony import */ var _components_sensors_voltage_voltage_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./components/sensors/voltage/voltage.component */ "./src/app/components/sensors/voltage/voltage.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _app_routes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.routes */ "./src/app/app.routes.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var ng_socket_io__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ng-socket-io */ "./node_modules/ng-socket-io/dist/index.js");
+/* harmony import */ var ng_socket_io__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(ng_socket_io__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! primeng/chart */ "./node_modules/primeng/chart.js");
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(primeng_chart__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! primeng/gmap */ "./node_modules/primeng/gmap.js");
+/* harmony import */ var primeng_gmap__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(primeng_gmap__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var angular_gauge_chart__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! angular-gauge-chart */ "./node_modules/angular-gauge-chart/fesm5/angular-gauge-chart.js");
+/* harmony import */ var _agm_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @agm/core */ "./node_modules/@agm/core/index.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _components_layout_main_main_layout_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/layout/main/main-layout.component */ "./src/app/components/layout/main/main-layout.component.ts");
+/* harmony import */ var _components_layout_main_menu_menu_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/layout/main/menu/menu.component */ "./src/app/components/layout/main/menu/menu.component.ts");
+/* harmony import */ var _components_layout_main_header_header_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/layout/main/header/header.component */ "./src/app/components/layout/main/header/header.component.ts");
+/* harmony import */ var _components_layout_main_avatar_avatar_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/layout/main/avatar/avatar.component */ "./src/app/components/layout/main/avatar/avatar.component.ts");
+/* harmony import */ var _components_layout_main_footer_footer_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/layout/main/footer/footer.component */ "./src/app/components/layout/main/footer/footer.component.ts");
+/* harmony import */ var _components_layout_main_content_content_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/layout/main/content/content.component */ "./src/app/components/layout/main/content/content.component.ts");
+/* harmony import */ var _components_layout_clean_clean_layout_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/layout/clean/clean-layout.component */ "./src/app/components/layout/clean/clean-layout.component.ts");
+/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
+/* harmony import */ var _components_history_history_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/history/history.component */ "./src/app/components/history/history.component.ts");
+/* harmony import */ var _components_sensors_accelerometer_accelerometer_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/sensors/accelerometer/accelerometer.component */ "./src/app/components/sensors/accelerometer/accelerometer.component.ts");
+/* harmony import */ var _components_sensors_gps_gps_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/sensors/gps/gps.component */ "./src/app/components/sensors/gps/gps.component.ts");
+/* harmony import */ var _components_sensors_gyroscope_gyroscope_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/sensors/gyroscope/gyroscope.component */ "./src/app/components/sensors/gyroscope/gyroscope.component.ts");
+/* harmony import */ var _components_sensors_magnetometer_magnetometer_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/sensors/magnetometer/magnetometer.component */ "./src/app/components/sensors/magnetometer/magnetometer.component.ts");
+/* harmony import */ var _components_sensors_sensors_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/sensors/sensors.component */ "./src/app/components/sensors/sensors.component.ts");
+/* harmony import */ var _components_sensors_altitude_altitude_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/sensors/altitude/altitude.component */ "./src/app/components/sensors/altitude/altitude.component.ts");
+/* harmony import */ var _components_sensors_presion_presion_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/sensors/presion/presion.component */ "./src/app/components/sensors/presion/presion.component.ts");
+/* harmony import */ var _components_sensors_humidity_humidity_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/sensors/humidity/humidity.component */ "./src/app/components/sensors/humidity/humidity.component.ts");
+/* harmony import */ var _components_sensors_temperature_out_temperature_out_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./components/sensors/temperature-out/temperature-out.component */ "./src/app/components/sensors/temperature-out/temperature-out.component.ts");
+/* harmony import */ var _components_sensors_temperature_in_temperature_in_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./components/sensors/temperature-in/temperature-in.component */ "./src/app/components/sensors/temperature-in/temperature-in.component.ts");
+/* harmony import */ var _components_sensors_vibration_vibration_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./components/sensors/vibration/vibration.component */ "./src/app/components/sensors/vibration/vibration.component.ts");
+/* harmony import */ var _components_sensors_voltage_voltage_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./components/sensors/voltage/voltage.component */ "./src/app/components/sensors/voltage/voltage.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -151,44 +153,45 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"],
-                _components_layout_main_main_layout_component__WEBPACK_IMPORTED_MODULE_11__["MainLayoutComponent"],
-                _components_layout_clean_clean_layout_component__WEBPACK_IMPORTED_MODULE_17__["CleanLayoutComponent"],
-                _components_layout_main_menu_menu_component__WEBPACK_IMPORTED_MODULE_12__["MenuComponent"],
-                _components_layout_main_header_header_component__WEBPACK_IMPORTED_MODULE_13__["HeaderComponent"],
-                _components_layout_main_footer_footer_component__WEBPACK_IMPORTED_MODULE_15__["FooterComponent"],
-                _components_layout_main_avatar_avatar_component__WEBPACK_IMPORTED_MODULE_14__["AvatarComponent"],
-                _components_layout_main_content_content_component__WEBPACK_IMPORTED_MODULE_16__["ContentComponent"],
-                _components_home_home_component__WEBPACK_IMPORTED_MODULE_18__["HomeComponent"],
-                _components_sensors_accelerometer_accelerometer_component__WEBPACK_IMPORTED_MODULE_20__["AccelerometerComponent"],
-                _components_sensors_gps_gps_component__WEBPACK_IMPORTED_MODULE_21__["GpsComponent"],
-                _components_sensors_gyroscope_gyroscope_component__WEBPACK_IMPORTED_MODULE_22__["GyroscopeComponent"],
-                _components_sensors_magnetometer_magnetometer_component__WEBPACK_IMPORTED_MODULE_23__["MagnetometerComponent"],
-                _components_sensors_sensors_component__WEBPACK_IMPORTED_MODULE_24__["SensorsComponent"],
-                _components_history_history_component__WEBPACK_IMPORTED_MODULE_19__["HistoryComponent"],
-                _components_display_display_component__WEBPACK_IMPORTED_MODULE_25__["DisplayComponent"],
-                angular_gauge_chart__WEBPACK_IMPORTED_MODULE_8__["GaugeChartComponent"],
-                _components_sensors_altitude_altitude_component__WEBPACK_IMPORTED_MODULE_26__["AltitudeComponent"],
-                _components_sensors_presion_presion_component__WEBPACK_IMPORTED_MODULE_27__["PresionComponent"],
-                _components_sensors_humidity_humidity_component__WEBPACK_IMPORTED_MODULE_28__["HumidityComponent"],
-                _components_sensors_temperature_out_temperature_out_component__WEBPACK_IMPORTED_MODULE_29__["TemperatureOutComponent"],
-                _components_sensors_temperature_in_temperature_in_component__WEBPACK_IMPORTED_MODULE_30__["TemperatureInComponent"],
-                _components_sensors_vibration_vibration_component__WEBPACK_IMPORTED_MODULE_31__["VibrationComponent"],
-                _components_sensors_voltage_voltage_component__WEBPACK_IMPORTED_MODULE_32__["VoltageComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"],
+                _components_layout_main_main_layout_component__WEBPACK_IMPORTED_MODULE_13__["MainLayoutComponent"],
+                _components_layout_clean_clean_layout_component__WEBPACK_IMPORTED_MODULE_19__["CleanLayoutComponent"],
+                _components_layout_main_menu_menu_component__WEBPACK_IMPORTED_MODULE_14__["MenuComponent"],
+                _components_layout_main_header_header_component__WEBPACK_IMPORTED_MODULE_15__["HeaderComponent"],
+                _components_layout_main_footer_footer_component__WEBPACK_IMPORTED_MODULE_17__["FooterComponent"],
+                _components_layout_main_avatar_avatar_component__WEBPACK_IMPORTED_MODULE_16__["AvatarComponent"],
+                _components_layout_main_content_content_component__WEBPACK_IMPORTED_MODULE_18__["ContentComponent"],
+                _components_home_home_component__WEBPACK_IMPORTED_MODULE_20__["HomeComponent"],
+                _components_sensors_accelerometer_accelerometer_component__WEBPACK_IMPORTED_MODULE_22__["AccelerometerComponent"],
+                _components_sensors_gps_gps_component__WEBPACK_IMPORTED_MODULE_23__["GpsComponent"],
+                _components_sensors_gyroscope_gyroscope_component__WEBPACK_IMPORTED_MODULE_24__["GyroscopeComponent"],
+                _components_sensors_magnetometer_magnetometer_component__WEBPACK_IMPORTED_MODULE_25__["MagnetometerComponent"],
+                _components_sensors_sensors_component__WEBPACK_IMPORTED_MODULE_26__["SensorsComponent"],
+                _components_history_history_component__WEBPACK_IMPORTED_MODULE_21__["HistoryComponent"],
+                angular_gauge_chart__WEBPACK_IMPORTED_MODULE_10__["GaugeChartComponent"],
+                _components_sensors_altitude_altitude_component__WEBPACK_IMPORTED_MODULE_27__["AltitudeComponent"],
+                _components_sensors_presion_presion_component__WEBPACK_IMPORTED_MODULE_28__["PresionComponent"],
+                _components_sensors_humidity_humidity_component__WEBPACK_IMPORTED_MODULE_29__["HumidityComponent"],
+                _components_sensors_temperature_out_temperature_out_component__WEBPACK_IMPORTED_MODULE_30__["TemperatureOutComponent"],
+                _components_sensors_temperature_in_temperature_in_component__WEBPACK_IMPORTED_MODULE_31__["TemperatureInComponent"],
+                _components_sensors_vibration_vibration_component__WEBPACK_IMPORTED_MODULE_32__["VibrationComponent"],
+                _components_sensors_voltage_voltage_component__WEBPACK_IMPORTED_MODULE_33__["VoltageComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                primeng_chart__WEBPACK_IMPORTED_MODULE_6__["ChartModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
-                primeng_gmap__WEBPACK_IMPORTED_MODULE_7__["GMapModule"],
-                _agm_core__WEBPACK_IMPORTED_MODULE_9__["AgmCoreModule"].forRoot({
+                primeng_chart__WEBPACK_IMPORTED_MODULE_8__["ChartModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
+                primeng_gmap__WEBPACK_IMPORTED_MODULE_9__["GMapModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"].forRoot(),
+                _agm_core__WEBPACK_IMPORTED_MODULE_11__["AgmCoreModule"].forRoot({
                     apiKey: 'AIzaSyCDg3Orzu4YR0zDyeHxtvk5Yic8IvnIbKE'
                 }),
-                ng_socket_io__WEBPACK_IMPORTED_MODULE_5__["SocketIoModule"].forRoot({ url: _environments_environment__WEBPACK_IMPORTED_MODULE_4__["environment"].serverBaseURL + _environments_environment__WEBPACK_IMPORTED_MODULE_4__["environment"].api + 'io/logs?s=ui', options: {} }),
-                _app_routes__WEBPACK_IMPORTED_MODULE_2__["ROUTING"]
+                ng_socket_io__WEBPACK_IMPORTED_MODULE_7__["SocketIoModule"].forRoot({ url: _environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].serverBaseURL + _environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].api + 'io/logs?s=ui', options: {} }),
+                _app_routes__WEBPACK_IMPORTED_MODULE_3__["ROUTING"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -214,8 +217,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout_clean_clean_layout_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/layout/clean/clean-layout.component */ "./src/app/components/layout/clean/clean-layout.component.ts");
 /* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
 /* harmony import */ var _components_history_history_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/history/history.component */ "./src/app/components/history/history.component.ts");
-/* harmony import */ var _components_display_display_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/display/display.component */ "./src/app/components/display/display.component.ts");
-
 
 
 
@@ -227,81 +228,9 @@ var ROUTES = [
     { path: '', component: _components_layout_main_main_layout_component__WEBPACK_IMPORTED_MODULE_1__["MainLayoutComponent"], children: [
             { path: 'home', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
             { path: 'history', component: _components_history_history_component__WEBPACK_IMPORTED_MODULE_4__["HistoryComponent"] },
-            { path: 'display', component: _components_display_display_component__WEBPACK_IMPORTED_MODULE_5__["DisplayComponent"] }
         ] },
 ];
 var ROUTING = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(ROUTES);
-
-
-/***/ }),
-
-/***/ "./src/app/components/display/display.component.html":
-/*!***********************************************************!*\
-  !*** ./src/app/components/display/display.component.html ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- <canvas #canvas (mousedown)=\"onMouseDown($event)\" (mouseup)=\"onMouseUp($event)\"></canvas>\n<button type=\"button\" name=\"button\" (click)=\"onNext()\">next</button>\n<button type=\"button\" name=\"button\" (click)=\"onBack()\">back</button> -->\n"
-
-/***/ }),
-
-/***/ "./src/app/components/display/display.component.ts":
-/*!*********************************************************!*\
-  !*** ./src/app/components/display/display.component.ts ***!
-  \*********************************************************/
-/*! exports provided: DisplayComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DisplayComponent", function() { return DisplayComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-// import * as THREE from 'three';
-// import "./js/EnableThreeExamples";
-// import "three/examples/js/controls/OrbitControls";
-// import "three/examples/js/loaders/ColladaLoader";
-var DisplayComponent = /** @class */ (function () {
-    //export class DisplayComponent implements AfterViewInit {
-    // private renderer: THREE.WebGLRenderer;
-    // private camera: THREE.PerspectiveCamera;
-    // private cameraTarget: THREE.Vector3;
-    // public scene: THREE.Scene;
-    //
-    // public fieldOfView: number = 60;
-    // public nearClippingPane: number = 1;
-    // public farClippingPane: number = 1100;
-    //
-    // public controls: THREE.OrbitControls;
-    //
-    // mesh: any;
-    // index = 0;
-    // @ViewChild('canvas')
-    // private canvasRef: ElementRef;
-    function DisplayComponent() {
-        //        this.render = this.render.bind(this);
-        //        this.onModelLoadingCompleted = this.onModelLoadingCompleted.bind(this);
-    }
-    DisplayComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-display',
-            template: __webpack_require__(/*! ./display.component.html */ "./src/app/components/display/display.component.html")
-        }),
-        __metadata("design:paramtypes", [])
-    ], DisplayComponent);
-    return DisplayComponent;
-}());
-
 
 
 /***/ }),
@@ -1004,6 +933,11 @@ var AltitudeComponent = /** @class */ (function () {
         this.data.datasets[0].data.push(this.altitude);
         this.chart.refresh();
     };
+    AltitudeComponent.prototype.onReset = function () {
+        this.data.labels = [];
+        this.data.datasets[0].data = [];
+        this.chart.refresh();
+    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('chart'),
         __metadata("design:type", Object)
@@ -1108,7 +1042,7 @@ var GpsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">Gyroscope</h3>\n    <div class=\"card-options\">\n      <button type=\"button\" class=\"btn btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-body\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n            <p-chart #chart1 type=\"line\" [data]=\"dataX\" ></p-chart>\n      </div>\n      <div class=\"col-md-4\">\n            <p-chart #chart2 type=\"line\" [data]=\"dataY\" ></p-chart>\n      </div>\n      <div class=\"col-md-4\">\n            <p-chart #chart3 type=\"line\" [data]=\"dataZ\" ></p-chart>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">Gyroscope</h3>\n    <div class=\"card-options\">\n      <button type=\"button\" class=\"btn btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-body\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n            <p-chart #chart1 type=\"line\" [data]=\"dataX\" ></p-chart>\n      </div>\n      <div class=\"col-md-4\">\n            <p-chart #chart2 type=\"line\" [data]=\"dataY\" ></p-chart>\n      </div>\n      <div class=\"col-md-4\">\n            <p-chart #chart3 type=\"line\" [data]=\"dataZ\" ></p-chart>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">Gyroscope 3D View</h3>\n    <div class=\"card-options\">\n      <button type=\"button\" class=\"btn btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-body\">\n    <p>x: {{dataRollx}}, y: {{dataRolly}}, z: {{dataRollz}}</p>\n    <canvas #canvas style=\"width:400px; height: 200px\" ></canvas>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1124,6 +1058,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GyroscopeComponent", function() { return GyroscopeComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../services/data.service */ "./src/app/services/data.service.ts");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var _js_EnableThreeExamples__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/EnableThreeExamples */ "./src/app/components/sensors/gyroscope/js/EnableThreeExamples.js");
+/* harmony import */ var _js_EnableThreeExamples__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_js_EnableThreeExamples__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var three_examples_js_controls_OrbitControls__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! three/examples/js/controls/OrbitControls */ "./node_modules/three/examples/js/controls/OrbitControls.js");
+/* harmony import */ var three_examples_js_controls_OrbitControls__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(three_examples_js_controls_OrbitControls__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var three_examples_js_loaders_ColladaLoader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! three/examples/js/loaders/ColladaLoader */ "./node_modules/three/examples/js/loaders/ColladaLoader.js");
+/* harmony import */ var three_examples_js_loaders_ColladaLoader__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(three_examples_js_loaders_ColladaLoader__WEBPACK_IMPORTED_MODULE_5__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1135,9 +1076,22 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
+
+
+
+
 var GyroscopeComponent = /** @class */ (function () {
     function GyroscopeComponent(dataService) {
         this.dataService = dataService;
+        this.dataRollx = '0';
+        this.dataRolly = '0';
+        this.dataRollz = '0';
+        this.accuracy = 2;
+        this.orderOfMag = (Math.PI / 180);
+        this.fieldOfView = 60;
+        this.nearClippingPane = 1;
+        this.farClippingPane = 1100;
+        this.index = 0;
         this.cont = 0;
         this.dataX = {
             labels: [],
@@ -1172,7 +1126,105 @@ var GyroscopeComponent = /** @class */ (function () {
                 }
             ]
         };
+        this.render = this.render.bind(this);
+        this.onModelLoadingCompleted = this.onModelLoadingCompleted.bind(this);
     }
+    Object.defineProperty(GyroscopeComponent.prototype, "canvas", {
+        get: function () {
+            return this.canvasRef.nativeElement;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    GyroscopeComponent.prototype.createScene = function () {
+        this.scene = new three__WEBPACK_IMPORTED_MODULE_2__["Scene"]();
+        var loader = new three__WEBPACK_IMPORTED_MODULE_2__["ColladaLoader"]();
+        var geometry = new three__WEBPACK_IMPORTED_MODULE_2__["BoxGeometry"](200, 200, 200);
+        for (var i = 0; i < geometry.faces.length; i += 2) {
+            var hex = Math.random() * 0xffffff;
+            geometry.faces[i].color.setHex(hex);
+            geometry.faces[i + 1].color.setHex(hex);
+        }
+        var material = new three__WEBPACK_IMPORTED_MODULE_2__["MeshBasicMaterial"]({ vertexColors: three__WEBPACK_IMPORTED_MODULE_2__["FaceColors"], overdraw: 0.5 });
+        this.mesh = new three__WEBPACK_IMPORTED_MODULE_2__["Mesh"](geometry, material);
+        this.mesh.position.y = 20;
+        this.scene.add(this.mesh);
+    };
+    GyroscopeComponent.prototype.onModelLoadingCompleted = function (collada) {
+        var modelScene = collada.scene;
+        this.scene.add(modelScene);
+        this.render();
+    };
+    GyroscopeComponent.prototype.createLight = function () {
+        var light = new three__WEBPACK_IMPORTED_MODULE_2__["PointLight"](0xffffff, 1, 1000);
+        light.position.set(0, 0, 100);
+        this.scene.add(light);
+        var light = new three__WEBPACK_IMPORTED_MODULE_2__["PointLight"](0xffffff, 1, 1000);
+        light.position.set(0, 0, -100);
+        this.scene.add(light);
+    };
+    GyroscopeComponent.prototype.createCamera = function () {
+        var aspectRatio = this.getAspectRatio();
+        // Set position and look at
+        this.camera = new three__WEBPACK_IMPORTED_MODULE_2__["PerspectiveCamera"](70, window.innerWidth / window.innerHeight, 1, 1000);
+        this.camera.position.y = 10;
+        this.camera.position.z = 300;
+    };
+    GyroscopeComponent.prototype.getAspectRatio = function () {
+        var height = this.canvas.clientHeight;
+        if (height === 0) {
+            return 0;
+        }
+        return this.canvas.clientWidth / this.canvas.clientHeight;
+    };
+    GyroscopeComponent.prototype.startRendering = function () {
+        this.renderer = new three__WEBPACK_IMPORTED_MODULE_2__["WebGLRenderer"]({
+            canvas: this.canvas,
+            antialias: true
+        });
+        this.renderer.setPixelRatio(devicePixelRatio);
+        this.renderer.setSize(this.canvas.clientWidth, this.canvas.clientHeight);
+        this.renderer.shadowMap.enabled = true;
+        this.renderer.shadowMap.type = three__WEBPACK_IMPORTED_MODULE_2__["PCFSoftShadowMap"];
+        this.renderer.setClearColor(0xffffff, 1);
+        this.renderer.autoClear = true;
+        var component = this;
+        (function render() {
+            //requestAnimationFrame(render);
+            component.render();
+        }());
+    };
+    GyroscopeComponent.prototype.render = function () {
+        this.mesh.rotation.x = -this.dataRollx;
+        this.mesh.rotation.y = -this.dataRollz;
+        this.mesh.rotation.z = -this.dataRolly;
+        this.renderer.render(this.scene, this.camera);
+    };
+    GyroscopeComponent.prototype.addControls = function () {
+        // this.controls = new THREE.OrbitControls(this.camera);
+        // this.controls.rotateSpeed = 1.0;
+        // this.controls.zoomSpeed = 1.2;
+        // this.controls.addEventListener('change', this.render);
+    };
+    GyroscopeComponent.prototype.findAllObjects = function (pred, parent) {
+        var _this = this;
+        if (parent.children.length > 0) {
+            parent.children.forEach(function (i) {
+                pred.push(i);
+                _this.findAllObjects(pred, i);
+            });
+        }
+    };
+    GyroscopeComponent.prototype.onMouseUp = function (event) {
+        console.log("onMouseUp");
+    };
+    GyroscopeComponent.prototype.ngAfterViewInit = function () {
+        this.createScene();
+        this.createLight();
+        this.createCamera();
+        this.startRendering();
+        this.addControls();
+    };
     GyroscopeComponent.prototype.ngOnInit = function () {
     };
     GyroscopeComponent.prototype.ngOnChanges = function () {
@@ -1180,7 +1232,12 @@ var GyroscopeComponent = /** @class */ (function () {
     };
     GyroscopeComponent.prototype.onRun = function (data) {
         console.log("onRun", this.cont);
+        console.log("onRun", data);
         if (data) {
+            this.dataRollx = (data.data.gyroscope.x *= this.orderOfMag).toFixed(this.accuracy);
+            this.dataRolly = (data.data.gyroscope.y *= this.orderOfMag).toFixed(this.accuracy);
+            this.dataRollz = (data.data.gyroscope.z *= this.orderOfMag).toFixed(this.accuracy);
+            console.log(this.dataRollx, this.dataRolly, this.dataRollz);
             this.dataX.labels.push(this.cont);
             this.dataY.labels.push(this.cont);
             this.dataZ.labels.push(this.cont);
@@ -1191,6 +1248,7 @@ var GyroscopeComponent = /** @class */ (function () {
             this.chart1.refresh();
             this.chart2.refresh();
             this.chart3.refresh();
+            this.render();
         }
     };
     GyroscopeComponent.prototype.onReset = function () {
@@ -1208,6 +1266,10 @@ var GyroscopeComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
         __metadata("design:type", Object)
     ], GyroscopeComponent.prototype, "data", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('canvas'),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])
+    ], GyroscopeComponent.prototype, "canvasRef", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('chart1'),
         __metadata("design:type", Object)
@@ -1234,6 +1296,17 @@ var GyroscopeComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/components/sensors/gyroscope/js/EnableThreeExamples.js":
+/*!************************************************************************!*\
+  !*** ./src/app/components/sensors/gyroscope/js/EnableThreeExamples.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+THREE=__webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+
+/***/ }),
+
 /***/ "./src/app/components/sensors/humidity/humidity.component.html":
 /*!*********************************************************************!*\
   !*** ./src/app/components/sensors/humidity/humidity.component.html ***!
@@ -1241,7 +1314,7 @@ var GyroscopeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">Humidity</h3>\n    <div class=\"card-options\">\n      <button type=\"button\" class=\"btn btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-\">\n    <rg-gauge-chart\n        [canvasWidth]=\"canvasWidth\"\n        [needleValue]=\"needleValue\"\n        [centralLabel]=\"centralLabel\"\n        [options]=\"options\"\n        [name]=\"name\"\n        [bottomLabel]=\"bottomLabel\"></rg-gauge-chart>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 class=\"card-title\">Humidity</h3>\n    <div class=\"card-options\">\n      <button type=\"button\" class=\"btn btn-sm btn-default\" (click)=\"onReset()\" name=\"button\">\n        <i class=\"fa fa-refresh\"></i>\n      </button>\n    </div>\n  </div>\n  <div class=\"card-\">\n    <rg-gauge-chart\n        [canvasWidth]=\"canvasWidth\"\n        [needleValue]=\"needleValue\"\n        [centralLabel]=\"centralLabel\"\n        [options]=\"options\"\n        [name]=\"name\"\n        [bottomLabel]=\"bottomLabel\"></rg-gauge-chart>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1256,6 +1329,7 @@ module.exports = "<div class=\"card\">\n  <div class=\"card-header\">\n    <h3 c
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HumidityComponent", function() { return HumidityComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1266,27 +1340,36 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var HumidityComponent = /** @class */ (function () {
-    function HumidityComponent() {
+    function HumidityComponent(modalService) {
+        this.modalService = modalService;
         this.canvasWidth = 200;
-        this.needleValue = 65;
+        this.needleValue = 0;
         this.centralLabel = '';
         this.name = 'Humidity (%)';
         this.bottomLabel = '65';
+        this.rangeMin = '0';
+        this.rangeMax = '101';
         this.options = {
             hasNeedle: true,
             needleColor: 'gray',
             needleUpdateSpeed: 1000,
             arcColors: ['rgb(166, 206, 227)'],
-            rangeLabel: ['0', '100'],
-            needleStartValue: 50,
+            rangeLabel: [this.rangeMin, this.rangeMax],
+            needleStartValue: 0,
         };
+        this.range = [];
     }
     HumidityComponent.prototype.ngOnInit = function () {
     };
     HumidityComponent.prototype.ngOnChanges = function () {
         this.needleValue = this.humidity;
         this.bottomLabel = this.humidity;
+    };
+    HumidityComponent.prototype.onReset = function () {
+        this.needleValue = 0;
+        this.bottomLabel = '0';
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
@@ -1297,7 +1380,7 @@ var HumidityComponent = /** @class */ (function () {
             selector: 'app-humidity',
             template: __webpack_require__(/*! ./humidity.component.html */ "./src/app/components/sensors/humidity/humidity.component.html"),
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbModal"]])
     ], HumidityComponent);
     return HumidityComponent;
 }());
@@ -1484,7 +1567,7 @@ var PresionComponent = /** @class */ (function () {
             needleUpdateSpeed: 1000,
             arcColors: ['rgb(179, 224, 174)'],
             rangeLabel: ['0', '200'],
-            needleStartValue: 50,
+            needleStartValue: 0,
         };
     }
     PresionComponent.prototype.ngOnInit = function () {
@@ -1492,6 +1575,10 @@ var PresionComponent = /** @class */ (function () {
     PresionComponent.prototype.ngOnChanges = function () {
         this.needleValue = this.presion;
         this.bottomLabel = this.presion;
+    };
+    PresionComponent.prototype.onReset = function () {
+        this.needleValue = 0;
+        this.bottomLabel = '0';
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
@@ -1518,7 +1605,7 @@ var PresionComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-gps></app-gps>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-3\">\n    <app-humidity [humidity]=\"humidity\"></app-humidity>\n  </div>\n  <div class=\"col-md-3\">\n    <app-presion [presion]=\"presion\"></app-presion>\n  </div>\n\n  <div class=\"col-md-3\">\n    <app-temperature-out [temperature]=\"temperatureOut\"></app-temperature-out>\n  </div>\n  <div class=\"col-md-3\">\n    <app-temperature-in [temperature]=\"temperatureIn\"></app-temperature-in>\n  </div>\n  <div class=\"col-md-3\">\n    <app-voltage [voltage]=\"voltage\"></app-voltage>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <app-altitude [altitude]=\"altitude\"></app-altitude>\n  </div>\n  <div class=\"col-md-6\">\n    <app-vibration [vibration]=\"vibration\"></app-vibration>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-accelerometer [data]=\"data\"></app-accelerometer>\n  </div>\n  <div class=\"col-md-12\">\n    <app-gyroscope [data]=\"data\"></app-gyroscope>\n  </div>\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-gps></app-gps>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-3\">\n    <app-humidity [humidity]=\"humidity\"></app-humidity>\n  </div>\n  <div class=\"col-md-3\">\n    <app-presion [presion]=\"presion\"></app-presion>\n  </div>\n\n  <div class=\"col-md-3\">\n    <app-temperature-out [temperature]=\"temperatureOut\"></app-temperature-out>\n  </div>\n  <div class=\"col-md-3\">\n    <app-temperature-in [temperature]=\"temperatureIn\"></app-temperature-in>\n  </div>\n  <div class=\"col-md-3\">\n    <app-voltage [voltage]=\"voltage\"></app-voltage>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <app-altitude [altitude]=\"altitude\"></app-altitude>\n  </div>\n  <div class=\"col-md-6\">\n    <app-vibration [vibration]=\"vibration\"></app-vibration>\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-md-12\">\n    <app-accelerometer [data]=\"data\"></app-accelerometer>\n  </div>\n  <div class=\"col-md-12\">\n    <app-gyroscope [data]=\"data\"></app-gyroscope>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1642,7 +1729,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var TemperatureInComponent = /** @class */ (function () {
     function TemperatureInComponent() {
         this.canvasWidth = 200;
-        this.needleValue = 33;
+        this.needleValue = this.temperature;
         this.centralLabel = '';
         this.name = 'Temperature (℃)';
         this.bottomLabel = '65';
@@ -1653,7 +1740,7 @@ var TemperatureInComponent = /** @class */ (function () {
             arcColors: ["rgb(61,204,91)", "rgb(239,214,19)", "rgb(255,84,84)"],
             arcDelimiters: [30, 70],
             rangeLabel: ['0', '100'],
-            needleStartValue: 50,
+            needleStartValue: 0,
         };
     }
     TemperatureInComponent.prototype.ngOnInit = function () {
@@ -1661,6 +1748,10 @@ var TemperatureInComponent = /** @class */ (function () {
     TemperatureInComponent.prototype.ngOnChanges = function () {
         this.needleValue = this.temperature;
         this.bottomLabel = this.temperature;
+    };
+    TemperatureInComponent.prototype.onReset = function () {
+        this.needleValue = 0;
+        this.bottomLabel = '0';
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
@@ -1715,7 +1806,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var TemperatureOutComponent = /** @class */ (function () {
     function TemperatureOutComponent() {
         this.canvasWidth = 200;
-        this.needleValue = 33;
+        this.needleValue = this.temperature;
         this.centralLabel = '';
         this.name = 'Temperature (℃)';
         this.bottomLabel = '65';
@@ -1726,7 +1817,7 @@ var TemperatureOutComponent = /** @class */ (function () {
             arcColors: ["rgb(61,204,91)", "rgb(239,214,19)", "rgb(255,84,84)"],
             arcDelimiters: [30, 70],
             rangeLabel: ['0', '100'],
-            needleStartValue: 50,
+            needleStartValue: 0,
         };
     }
     TemperatureOutComponent.prototype.ngOnInit = function () {
@@ -1734,6 +1825,10 @@ var TemperatureOutComponent = /** @class */ (function () {
     TemperatureOutComponent.prototype.ngOnChanges = function () {
         this.needleValue = this.temperature;
         this.bottomLabel = this.temperature;
+    };
+    TemperatureOutComponent.prototype.onReset = function () {
+        this.needleValue = 0;
+        this.bottomLabel = '0';
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
@@ -1811,6 +1906,11 @@ var VibrationComponent = /** @class */ (function () {
         this.data.datasets[0].data.push(this.vibration);
         this.chart.refresh();
     };
+    VibrationComponent.prototype.onReset = function () {
+        this.data.labels = [];
+        this.data.datasets[0].data = [];
+        this.chart.refresh();
+    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('chart'),
         __metadata("design:type", Object)
@@ -1886,6 +1986,10 @@ var VoltageComponent = /** @class */ (function () {
     VoltageComponent.prototype.ngOnChanges = function () {
         this.needleValue = this.voltage;
         this.bottomLabel = this.voltage;
+    };
+    VoltageComponent.prototype.onReset = function () {
+        this.needleValue = 0;
+        this.bottomLabel = '0';
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
