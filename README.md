@@ -4,8 +4,6 @@
 
 Paso 1: crear un archivo .env en la raiz del proyecto    
 
-
-Hola 
 ```
 .env
 ```
