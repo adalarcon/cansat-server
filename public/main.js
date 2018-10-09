@@ -1736,10 +1736,10 @@ var SensorsComponent = /** @class */ (function () {
         });
         this.socket.on("dth", function (res) {
             _this.humidity = res.data.humidity;
-            _this.temperatureOut = res.data.temperature;
+            _this.temperatureIn = res.data.temperature;
         });
         this.socket.on("lm35", function (res) {
-            _this.temperatureIn = res.data.temperature;
+            _this.temperatureOut = res.data.temperature;
         });
         this.socket.on("sw", function (res) {
             _this.vibration = res.data.vibration;
@@ -1813,7 +1813,7 @@ var SpeedComponent = /** @class */ (function () {
         this.canvasWidth = 200;
         this.needleValue = 0;
         this.centralLabel = '';
-        this.name = 'Speed (kmph)';
+        this.name = 'Speed (m/s)';
         this.bottomLabel = '0';
         this.options = {
             hasNeedle: true,
